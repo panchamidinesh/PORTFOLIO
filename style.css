@@ -353,3 +353,40 @@ footer a:last-child {
   border-radius: 20px;
   letter-spacing: 0.5px;
 }
+
+
+.card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;   /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;   /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Conference card tag */
+.conference-tag {
+  display: inline-block;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 14px;
+  background: #1C1C1C;
+  color: #F7F3EE;
+}
+
+/* Optional: keep subtle emphasis */
+.conference-card {
+  border-left: 4px solid #6B5B4D;
+}
